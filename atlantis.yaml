@@ -1,0 +1,6 @@
+
+version: 3
+automerge: true
+projects:
+- dir: code-lint
+  workflow: with-lint

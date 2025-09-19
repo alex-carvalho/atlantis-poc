@@ -31,6 +31,8 @@ TOKEN=xxxx
 
 5 - Run atlantils
 ```
+ATLANTIS_REPO_CONFIG: "./repos.yaml"
+
 atlantis server \
 --atlantis-url="$URL" \
 --gh-user="$USERNAME" \

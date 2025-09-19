@@ -1,0 +1,7 @@
+workflows:
+  with-lint:
+    plan:
+      steps:
+        - init
+        - plan
+        - run: tflint .
