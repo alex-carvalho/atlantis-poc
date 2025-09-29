@@ -4,3 +4,4 @@ automerge: true
 projects:
 - dir: with-lint
   workflow: wf-with-lint
+- dir: default-workflow
