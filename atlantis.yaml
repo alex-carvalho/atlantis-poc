@@ -2,5 +2,5 @@
 version: 3
 automerge: true
 projects:
-- dir: code-lint
-  workflow: with-lint
+- dir: with-lint
+  workflow: wf-with-lint

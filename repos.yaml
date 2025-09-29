@@ -1,5 +1,5 @@
 workflows:
-  with-lint:
+  wf-with-lint:
     plan:
       steps:
         - init
