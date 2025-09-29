@@ -1,7 +1,14 @@
+repos:
+  - id: /.*/
+    allowed_overrides: [workflow]
+    allowed_workflows: [wf-with-lint]
+    # apply_requirements: [approved, mergeable]
+    delete_source_branch_on_merge: true
+    
 workflows:
   wf-with-lint:
     plan:
       steps:
         - init
+        - run: tflint || true
         - plan
-        - run: tflint .

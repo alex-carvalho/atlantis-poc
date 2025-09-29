@@ -23,8 +23,6 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Ignore lock files
-.terraform.lock.hcl
 
 # Ignore any .env files that might contain secrets
 *.env
