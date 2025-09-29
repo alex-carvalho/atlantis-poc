@@ -2,7 +2,8 @@ provider "aws" {
     region = "us-west-2"
 }
 
-resource "aws_instance" "example" {
-    instance_type = "t2.micro"
-    ami = "ami-0c55b159cbfafe1f0"
+data "aws_caller_identity" "current" {}
+
+output "user_id" {
+    value = data.aws_caller_identity.current.user_id
 }
