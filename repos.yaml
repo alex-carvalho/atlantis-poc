@@ -4,6 +4,12 @@ repos:
     allowed_workflows: [wf-with-lint]
     # apply_requirements: [approved, mergeable]
     delete_source_branch_on_merge: true
+    policy_check: true
+
+policy_sets:
+  - name: no-iam
+    path: policy/
+    source: local
     
 workflows:
   wf-with-lint:
