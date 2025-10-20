@@ -38,7 +38,8 @@ atlantis server \
 --gh-user="$USERNAME" \
 --gh-token="$TOKEN" \
 --gh-webhook-secret="$SECRET" \
---repo-allowlist="$REPO_ALLOWLIST"
+--repo-allowlist="$REPO_ALLOWLIST" \
+--enable-policy-checks
 ```
 
 6 - Create a PR for terraform:

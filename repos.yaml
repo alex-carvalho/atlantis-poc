@@ -9,7 +9,7 @@ repos:
 policies:
   policy_sets:
     - name: no-iam
-      path: policy/
+      path: <ABSOLUTE_PATH>/policy/
       source: local
     
 workflows:

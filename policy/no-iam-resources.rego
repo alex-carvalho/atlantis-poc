@@ -1,4 +1,4 @@
-package terraform.analysis
+package main
 
 import rego.v1
 
