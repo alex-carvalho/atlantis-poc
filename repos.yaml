@@ -6,10 +6,11 @@ repos:
     delete_source_branch_on_merge: true
     policy_check: true
 
-policy_sets:
-  - name: no-iam
-    path: policy/
-    source: local
+policies:
+  policy_sets:
+    - name: no-iam
+      path: policy/
+      source: local
     
 workflows:
   wf-with-lint:
